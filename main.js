@@ -1,10 +1,9 @@
 import * as THREE from 'three';
-import selects from './src/Selects.png'
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
 let camera, scene, renderer, clock, controls, material, texture
 let sceneObjects = []
-
+let selects = "./src/Selects.png"
 console.log(selects)
 
 
